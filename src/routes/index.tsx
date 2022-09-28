@@ -5,7 +5,7 @@ import Repository from '../pages/Repository';
 const Routes = ( ) => (
   <Switch>
     <Route path="/" exact component={Dashboard}   />
-    <Route path="/repository" component={Repository} />
+    <Route path="/repositories/:repositories+" component={Repository} />
     <Route />
   </Switch>
 )
